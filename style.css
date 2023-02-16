@@ -1,7 +1,6 @@
 body{
     margin: 0; 
-    background: linear-gradient(to left bottom, lightgreen, lightyellow, lightpink );
-    background-image: url("nature.jpg");
+    background: url("nature.jpg") center center / cover no-repeat;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -17,6 +16,8 @@ body{
     border-radius: 15px;
     width: 85%;
     text-align: center;
+    flex-direction: column;
+    display: flex;
     align-items: center;
     color: rgb(72, 59, 108);
     position: relative;
@@ -58,6 +59,8 @@ body{
     width: 250px;
     color: rgb(72, 59, 108);
     text-align:center;
+    position: absolute;
+    bottom: 20px;
     
 }
 
